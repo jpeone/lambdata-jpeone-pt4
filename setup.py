@@ -4,7 +4,7 @@ with open("README.md", "r") as fh:
     long_description = fh.read()
 setup(
     name="lambdata-jpeone-pt4",
-    version="1.3.13",
+    version="1.3.16",
     author="Felix Peone",
     author_email="topsecret@gmail.com",
     description="For example purposes",

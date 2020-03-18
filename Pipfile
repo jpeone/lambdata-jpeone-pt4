@@ -6,7 +6,7 @@ name = "pypi"
 [packages]
 pandas = "*"
 sendgrid = "==5.6.0"
-sklearn = "*"
+scikit-learn = "*"
 
 [dev-packages]
 twine = "*"

@@ -13,5 +13,9 @@ setup(
     # license="MIT",
     url="https://github.com/jpeone/lambdata-jpeone-pt4",
     # keywords="",
-    packages=find_packages()
+    packages=find_packages(),
+    install_requires=[
+        'pandas',
+        'scikit-learn'
+    ]
 )

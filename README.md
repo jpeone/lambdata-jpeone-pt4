@@ -6,3 +6,5 @@ A practice package exploring the following
 * publishing packages to PyPi
 * Pep8 style
 * oop - creating classes, methods, properties and exploring inheritance
+* Docker containers
+* Unit testing

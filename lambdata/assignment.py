@@ -1,8 +1,10 @@
-# lambdata/assignment.py (functional approach)
+# lambdata/assignment.py Example of inheritance
 
 import pandas
 
+
 def main():
+
     print('-------------------------------')
     df = CustomFrame({"abbrev": ['ca', 'ct', 'co', 'tx', 'dc']})
 
@@ -15,16 +17,20 @@ def main():
     df2 = CustomFrame({'abbrev': ['oh', 'mi', 'id', 'wa', 'wi']})
 
     print(df2.head())
-    
+
     df2.add_state_name()
     print(df2.head())
 
     print('-------------------------------')
 
+
 class CustomFrame(pandas.DataFrame):
 
     def add_state_name(self):
         '''
+        Takes a column with state abbreviations and creates a new column with
+        the full name spelled out.
+
         param:
             my_df (pandas.DataFrame) containing a colum called 'abbrev'
         '''

@@ -1,6 +1,7 @@
 import unittest
 from lambdata.assignment import CustomFrame
 
+
 class TestCustomFrame(unittest.TestCase):
 
     def test_add_state_names(self):
@@ -13,7 +14,7 @@ class TestCustomFrame(unittest.TestCase):
 
         self.assertEqual(custom_df['name'][0], 'California')
         self.assertEqual(custom_df['abbrev'][0], 'ca')
-        
+
 
 if __name__ == '__main__':
     unittest.main()
